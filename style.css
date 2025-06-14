@@ -4,19 +4,9 @@ body{
     background-color: aliceblue;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    gap: 10px;
-    grid-template-areas: 
-    "siderbar header header"
-    "siderbar main main" 
-    "footer footer footer"
-    ;
+.carousel-caption{
+    color: black !important;
 }
-
-
 
 .titulo{
     color: skyblue;
@@ -67,5 +57,4 @@ body{
     background-color: rgb(199, 113, 15);
     font-weight: bold;
     padding: 12px;
-    grid-area: footer;
 }
