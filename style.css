@@ -14,6 +14,12 @@ body{
     color: black !important;
 }
 
+.tamanio{
+    
+    width: 100% !important;
+    max-height: 250px !important;
+}
+
 .titulo{
     color: skyblue;
     font-style: italic;
