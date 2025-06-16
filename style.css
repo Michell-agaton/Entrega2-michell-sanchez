@@ -63,9 +63,10 @@ body{
 }
 
 .contacto{
-    background-color: antiquewhite;
+    background-color: rgb(240, 248, 255);
     font-style: italic;
     padding: 12px;
+    text-align: left;
 }
 
 .footer{
