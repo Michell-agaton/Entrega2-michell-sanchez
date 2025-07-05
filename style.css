@@ -1,77 +1,85 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue !important;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue !important;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
-.carousel-caption{
-    color: black !important;
-    background-color: rgba(58, 58, 58, 0.41) !important;
-    font-weight: bold;
+.nav-bar {
+  background-color: aqua;
 }
 
-.visually-hidden{
-    color: black !important;
+.carousel-caption {
+  color: black !important;
+  background-color: rgba(58, 58, 58, 0.41) !important;
+  font-weight: bold;
 }
 
-.tamanio{
-    
-    width: 100% !important;
-    max-height: 250px !important;
+.visually-hidden {
+  color: black !important;
 }
 
-.titulo{
-    color: skyblue;
-    font-style: italic;
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
+.titulo {
+  color: skyblue;
+  font-style: italic;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
 
-.subTitulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-    margin-top: 0;
-    margin-bottom: 10px;
+.subTitulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
-.foto{
-    height: 150px;
-    width: 150px;
-    border-radius: 20px 90px 20px 90px ;
+.foto {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px 90px 20px 90px;
 }
 
-.presentacion{
-    background-color: aliceblue;
-    align-content: center;
-    text-align: center;
-
+.presentacion {
+  background-color: backgd-color;
+  align-content: center;
+  text-align: center;
 }
 
-.proyectos{
-    background-color: azure;
-    padding: 12px;
+.proyectos {
+  background-color: azure;
+  padding: 12px;
 }
 
-.imgProyectos{
-    width: 450px;
-    height: 450px;
-    margin: 0;
+.img-acercade {
+  border-radius: 15px;
 }
 
-.contacto{
-    background-color: rgb(240, 248, 255);
-    font-style: italic;
-    padding: 12px;
-    text-align: left;
+.tamanio {
+  border-radius: 15px;
+  width: 100% !important;
+  max-height: 250px !important;
 }
 
-.footer{
-    background-color: rgb(199, 113, 15);
-    font-weight: bold;
-    padding: 12px;
-
+.imgProyectos {
+  width: 450px;
+  height: 450px;
+  margin: 0;
 }
+
+.contacto {
+  background-color: rgb(240, 248, 255);
+  font-style: italic;
+  padding: 12px;
+  text-align: left;
+}
+
+.footer {
+  background-color: rgb(199, 113, 15);
+  font-weight: bold;
+  padding: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
